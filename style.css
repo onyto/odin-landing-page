@@ -22,16 +22,8 @@ h1 {
   padding: 0;
 }
 
-button {
-  background: #3882f6;
-  color: #F9FAF8;
-  border: none;
-  border-radius: 6px;
-  padding: 6px 20px;
-}
-
 .hero {
-  padding: 15px 150px 150px;
+  padding: 15px 200px;
   background-color: #1f2937;
   font-size: 18px;
   color: #c4c8cd;
@@ -40,22 +32,40 @@ button {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
   font-weight: bold;
   }
 
 .hero-body {
   display: flex;
+  margin-bottom: 70px;
   justify-content: space-between;
-  column-gap: 8px;
 }
 
+.hero-text {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+button {
+  background: #3882f6;
+  color: #F9FAF8;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 22px;
+  font-weight: 900;
+  max-width: 110px;
+  }
+
 .image-placeholder {
-  width: 420px;
-  height: 180px;
+  max-width: 500px;
   background: #6d747d;
   color: #F9FAF8;
   display: flex;
+  flex: auto;
   justify-content: center;
   align-items: center;
 }
@@ -65,11 +75,16 @@ button {
   color: #F9FAF8
 }
 
-.hero-title {
-  font-size: 48px;
-  font-weight: bolder;
-}
-
 .logo {
   font-size: 24px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-text p {
+  margin: 0;
+  padding: 0 0 10px;
 }

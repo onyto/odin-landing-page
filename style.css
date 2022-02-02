@@ -1,5 +1,5 @@
 body {
-  font-family:'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -122,4 +122,39 @@ h2 {
   text-align: center;
   margin: 5px 0;
   color: #717984;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 130px 0 100px;
+}
+
+.quote .container {
+  width: 780px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #1f2937;
+}
+
+.quote .container p {
+  margin: 0;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-size: 22px;
+  font-weight: bold;
+  padding-right: 40px;
 }

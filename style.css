@@ -191,3 +191,15 @@ h2 {
   border-width: 2px;
   border-color: white;
 }
+
+.footer {
+  height: 90px;
+  background: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .container p {
+  color: #F9FAF8;
+}
